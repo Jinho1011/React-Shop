@@ -13,6 +13,7 @@ class App extends Component {
             products: data,
         };
         this.renderFoodDetail = this.renderFoodDetail.bind(this);
+        // bind() 함수를 통해 관계 설정
     }
 
     renderFoodDetail() {
